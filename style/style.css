@@ -122,11 +122,9 @@ article {
     text-align:center;
 }
 
-.required:after{
-    content:"*";
-    color:red; 
-} 
 
+
+/*Formulaire*/
 
 .formulaire{
     width:500px;
@@ -134,6 +132,11 @@ article {
     padding-top:20px;
     padding-bottom:10px;
 }
+
+.required:after{
+    content:"*";
+    color:red; 
+} 
 
 /* gallery */
 
