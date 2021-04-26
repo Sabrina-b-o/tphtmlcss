@@ -1,0 +1,206 @@
+body{
+    margin:0;
+    padding:0;
+    background: radial-gradient(#ffffff, #1a4663);
+
+}
+
+.footer {
+    background-color:#444444;
+    color:white;
+}
+
+/*Liens*/
+
+a:visited{
+    
+    color:black;
+}
+
+
+/*Barre de menu*/
+
+#wrap{
+    width: 100%; 
+    height: 50px; 
+    margin: 0;
+    z-index: 99; 
+    position: relative; 
+    background-color: #444444;
+    }
+
+.navbar{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+    }
+
+.navbar li {
+    height: auto;
+    width: 135.8px; 
+    float: left;  
+    text-align: center; 
+    list-style: none;  
+    font: normal bold 13px/1em Arial, Verdana, Helvetica;  
+    padding: 0;
+    margin: 0;
+    background-color: #444444;
+    }
+
+.navbar a{							
+    padding: 18px 0;  
+    border-left: 1px solid #ccc9c9;
+    text-decoration: none; 
+    color: white; 
+    display: block;
+    }
+.navbar li:hover, a:hover{
+     background-color: black;
+    }
+.navbar li ul{
+    display: none;
+    height: auto;									
+    margin: 0; 
+    padding: 0; 
+    }
+navbar li:hover ul{
+    display: block;
+    }
+.navbar li ul li a{
+    border-left: 1px solid #444444; 
+    border-right: 1px solid #444444; 
+    border-top: 1px solid #c9d4d8; 
+    border-bottom: 1px solid #444444; 
+    }
+/*Header*/
+
+.header{
+    width:100%;
+    height:250px;
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+
+header h1{
+    font-size:60px;
+    text-align:center;
+    font-weight: bold ;
+    color: rgb(3, 33, 66);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+    color: white;
+}
+
+h3{
+    color: rgb(0, 21, 46);
+    font-size:40px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+
+
+
+/*Article*/
+
+article img{
+    width: 20%;
+    border: 2px solid white;
+
+}
+
+article {
+    border: 1px solid;
+    text-align:center;
+}
+
+.required:after{
+    content:"*";
+    color:red; 
+} 
+
+
+.formulaire{
+    width:500px;
+    margin:auto;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+/* gallery */
+
+.container h1{
+    
+    text-align:center;
+    margin-bottom:100px;
+    font-size:60px;
+    background: linear-gradient(to right, #163f75, rgb(47, 29, 151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-shadow: 4px 3px 0px rgb(255, 255, 255), 9px 8px 0px rgba(0,0,0,0.15);
+
+}
+
+#gallerie{
+    background-image: url("https://images5.alphacoders.com/367/thumb-1920-367048.jpg");
+}
+
+.container {
+	width: 800px; 
+    margin: 40px auto ;  
+    
+}
+
+.container img{
+    width:100%;
+    
+}
+
+
+.gallery{
+    list-style:none;
+    padding:0;
+    
+}
+
+
+
+ul.gallery li a {
+    width:300px;
+	float: left;
+	padding: 10px 10px 25px 10px;
+	background: #eee;
+	border: 1px solid #fff;
+	-moz-box-shadow: 0px 2px 15px #333;
+	position:relative;
+   
+}
+
+ul.gallery li a.pic-1 {
+	z-index: 1;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+}
+ul.gallery li a.pic-2 {
+	z-index: 5;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+}
+ul.gallery li a.pic-3 {
+	z-index: 3;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+}
+
+ul.gallery li a:hover {
+	z-index: 10;
+	-moz-box-shadow: 3px 5px 15px #333;
+}
